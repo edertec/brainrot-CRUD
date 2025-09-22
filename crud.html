@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>CRUD Pizza Lovers</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Gerenciar Pizza Lovers</h1>
+    <form id="filtroForm">
+      <input type="text" id="filtroNome" placeholder="Filtrar por nome">
+      <input type="text" id="filtroPizza" placeholder="Filtrar por pizza">
+      <button type="submit">Filtrar</button>
+      <button type="button" onclick="consultarPizzaLoversCRUD()">Limpar Filtros</button>
+    </form>
+    <div id="listaCRUD"></div>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database-compat.js"></script>
+  <script src="secrets.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="script-crud.js"></script>
+</body>
+</html>
