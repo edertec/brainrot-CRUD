@@ -1,6 +1,6 @@
 // Substitua os valores abaixo pelo seu projeto Firebase
 const firebaseConfig = {
-    apiKey: FIREBASE_API_KEY,
+    // apiKey: FIREBASE_API_KEY,
     //@gmail.com
     // authDomain: "pizzabot-brainrot.firebaseapp.com",
     // databaseURL: "https://pizzabot-brainrot-default-rtdb.firebaseio.com",
@@ -10,12 +10,20 @@ const firebaseConfig = {
     // appId: "1:460224642072:web:0195eb2fe221d67bacd76d"
 
     //@ucs.br
-    authDomain: "cetec-teste.firebaseapp.com",
-    databaseURL: "https://cetec-teste-default-rtdb.firebaseio.com",
-    projectId: "cetec-teste",
-    storageBucket: "cetec-teste.firebasestorage.app",
-    messagingSenderId: "624122450938",
-    appId: "1:624122450938:web:0377c090a94f708a61ca43"
+    // authDomain: "cetec-teste.firebaseapp.com",
+    // databaseURL: "https://cetec-teste-default-rtdb.firebaseio.com",
+    // projectId: "cetec-teste",
+    // storageBucket: "cetec-teste.firebasestorage.app",
+    // messagingSenderId: "624122450938",
+    // appId: "1:624122450938:web:0377c090a94f708a61ca43"
+
+    apiKey: "AIzaSyDcn0AfM0ljA72-c7v8u86FCYA3uPMnBxw",
+    authDomain: "arquivox-c9d74.firebaseapp.com",
+    databaseURL: "https://arquivox-c9d74-default-rtdb.firebaseio.com",
+    projectId: "arquivox-c9d74",
+    storageBucket: "arquivox-c9d74.firebasestorage.app",
+    messagingSenderId: "235350186717",
+    appId: "1:235350186717:web:6273c8f7e998257d5e9934"
 
 };
 
